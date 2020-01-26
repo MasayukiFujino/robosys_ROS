@@ -30,11 +30,11 @@ $ roscore & <br>
 $ cd catkin/catkin_ws/src/mypkg/scripts/
 $ sudo chmod 766 count.py <br>
 $ sudo chmod 766 twice.py <br>
-$ rosrun mypkg count.py <br>*<br>
-$ rosrun mypkg twice.py <br>*<br>
-$ rostopic echo /twice <br>*<br>
+$ rosrun mypkg count.py <br>
+$ rosrun mypkg twice.py <br>
+$ rostopic echo /twice <br>
  
-*はすべて別々のウィンドウのTera Termで実行 <br>
+最後の三行はすべて別々のウィンドウのTera Termで実行 <br>
 
 # 動画URL
 https://twitter.com/owner_king_74/status/1221388605546885120?s=20 <br>
