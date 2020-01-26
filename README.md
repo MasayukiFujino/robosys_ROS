@@ -15,8 +15,8 @@ $rourun mypkg twice.py <br>
 
 $rostopic echo /twice <br>
 
-以上の3種類のコマンドを一つのウィンドウにつき一つ実行すると,　<br>
-$rostopic echo /twice を実行したウィンドウで,<br>
+以上の3種類のコマンドをすべて別々のウィンドウで実行すると,　<br>
+$rostopic echo /twice を実行したウィンドウで<br>
 count_upから出された値を2倍したものをどんどん足し合わせて表示します。<br>
 
 # ファイルの位置
@@ -30,9 +30,9 @@ $ roscore & <br>
 $ cd catkin/catkin_ws/src/mypkg/scripts/
 $ sudo chmod 766 count.py <br>
 $ sudo chmod 766 twice.py <br>
-$ rosrun mypkg count.py <br>*
-$ rosrun mypkg twice.py <br>*
-$ rostopic echo /twice <br>*
+$ rosrun mypkg count.py <br>*<br>
+$ rosrun mypkg twice.py <br>*<br>
+$ rostopic echo /twice <br>*<br>
  
 *はすべて別々のウィンドウのTera Termで実行 <br>
 
